@@ -26,7 +26,11 @@ function App() {
   <h1>pikachu</h1>
   <button onClick={ () => trocarTela('login')}>login</button>
   <button onClick={ () => trocarTela('cadastro')}>cadastro</button>
-   <button onClick={ () => trocarTela('usuario')}>usuario</button>
+  <button onClick={ () => trocarTela('usuario')}>usuario</button>
+
+
+  <hr />
+
   {renderizarTela()}
     </>
   )
