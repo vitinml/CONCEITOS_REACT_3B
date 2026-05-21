@@ -9,9 +9,9 @@ function App() {
 
   const renderizarTela = () => {
    if (tela === 'login') {
-    return <Login/>
+    return <Login navegar={trocarTela}/>
    } else if (tela === 'cadastro') {
-    return <Cadastro/>
+    return <Cadastro navegar={trocarTela}/>
    } else if (tela === 'usuario') {
     return <Usuario/>
    }
